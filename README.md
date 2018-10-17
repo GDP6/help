@@ -1,5 +1,5 @@
 # help
-Help pages for the project
+Help page for the project
 
 ## Useful Linux Commands 
 
