@@ -47,4 +47,11 @@ Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
   3. Create a new file in the root of the Micro-SD card (i.e. same level as the previous two files) called `ssh`. *Notice: there is no file extension to this file!*
 * After this, safely eject the Micro-SD card and plug it into the Raspberry Pi Zero.   
 * Plug in the Micro-USB cable to the **USB** port of the Raspberry Pi Zero W. **This is next to the identical looking port called PWR IN.** 
-* Plug the other side to the PC and the light on the Pi should turn on/start flashing. Do **NOT** unplug the device until its driver is installed as a "USB Ethernet/RNDIS Gadget" on the computer.
+* Plug the other side to the PC and the light on the Pi should turn on/start flashing. Do **NOT** unplug the device until its driver is installed as a "*USB Ethernet/RNDIS Gadget*" on the computer.
+* When the device appears with the name above as one of the PC's networks adapters, you can attempt to SSH. 
+* In some cases, you may have to download [Bonjour](https://support.apple.com/kb/DL999). 
+* Finally, use a program like [PuTTY](https://www.putty.org/) to SSH.
+  1. Host: `raspberrypi.local`
+  2. Username: `pi`
+  3. Password: `raspberry`
+  
