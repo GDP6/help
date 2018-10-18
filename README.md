@@ -10,6 +10,8 @@ Help page for the project
 * `sudo ufw allow X/tcp` allow TCP connections to port X.
 
 ### Device 
+The device is a Raspberry Pi Zero W.  
+  
 * `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` opens file where WiFi can be configured. 
 
 ```
@@ -26,3 +28,8 @@ network={
 * `sudo wpa_cli -i wlan0 reconfigure` restarts wlan0.
 * `ifconfig wlan0` to ensure wlan0 has an IP address.
 * `curl http://www.google.com` again, to ensure there is internet access.
+
+## Setting Up The Device  
+Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
+* Download a lite version of [Rasbian](https://www.raspberrypi.org/downloads/raspbian/). The lite version does not have a GUI, which is not needed in this project. 
+* 
