@@ -57,5 +57,5 @@ Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
   1. Host: `raspberrypi.local`
   2. Username: `pi`
   3. Password: `raspberry`
-* If you have a command line version of SSH installed, you can do some like: `ssh pi@raspberrypi.local` and enter the password. 
+* If you have a command line version of SSH installed, you can do something like: `ssh pi@raspberrypi.local` and enter the password. 
   
