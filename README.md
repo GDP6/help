@@ -43,3 +43,5 @@ Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
 * Use [Etcher](https://etcher.io/) to write the Raspbian Image to the Micro-SD card.
 * Open the Micro-SD card folder after writing the Raspbian Image and do the following:  
   1. Open `config.txt` and enter the following at the bottom of the file: `dtoverlay=dwc2`.  
+  2. Open `cmdline.txt` and enter the following **in between "rootwait" and "quiet"**: `modules-load=dwc2,g_ether`. 
+  3. Create a new file in the root of the Micro-SD card (i.e. same level as the previous two files) called `ssh`. *Notice: there is no file extension to this file!
