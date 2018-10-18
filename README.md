@@ -36,7 +36,8 @@ What you'll need:
 * USB to micro-USB cable. 
 * Micro-SD to SD card/USB adapter (or any method of reading and writing to a Micro-SD using a PC).
 * A PC to load the OS onto the Micro-SD. We used a Windows PC.
-  
+
+### Installing the OS
 Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
 * Download a lite version of [Rasbian](https://www.raspberrypi.org/downloads/raspbian/). The lite version does not have a GUI, which is ideal for this project. 
 * Format the Micro-SD card after plugging it into the PC.
@@ -47,7 +48,9 @@ Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
   3. Create a new file in the root of the Micro-SD card (i.e. same level as the previous two files) called `ssh`. *Notice: there is no file extension to this file!*
 * After this, safely eject the Micro-SD card and plug it into the Raspberry Pi Zero.   
 * Plug in the Micro-USB cable to the **USB** port of the Raspberry Pi Zero W. **This is next to the identical looking port called PWR IN.** 
-* Plug the other side to the PC and the light on the Pi should turn on/start flashing. Do **NOT** unplug the device until its driver is installed as a "*USB Ethernet/RNDIS Gadget*" on the computer.
+
+### SSH over USB
+* Plug the other side to the PC and the light on the Pi should turn on/start flashing. Do **NOT** unplug the device until its driver is installed as a "*USB Ethernet/RNDIS Gadget*" on the computer. This is important in the first boot as the files can become corrupted!
 * When the device appears with the name above as one of the PC's networks adapters, you can attempt to SSH. 
 * In some cases, you may have to download [Bonjour](https://support.apple.com/kb/DL999). 
 * Finally, use a program like [PuTTY](https://www.putty.org/) to SSH.
