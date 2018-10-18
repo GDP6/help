@@ -52,7 +52,7 @@ Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
 ### SSH over USB
 * Plug the other side to the PC and the light on the Pi should turn on/start flashing. Do **NOT** unplug the device until its driver is installed as a "*USB Ethernet/RNDIS Gadget*" on the computer. This is important in the first boot as the files can become corrupted!
 * When the device appears with the name above as one of the PC's networks adapters, you can attempt to SSH. 
-* In some cases, you may have to download [Bonjour](https://support.apple.com/kb/DL999). 
+* In some cases, you may have to download [Bonjour](https://support.apple.com/kb/DL999). This would be clear if the device shows up as an adapter but attempting to SSH causes a "Host does not exist" error. 
 * Finally, use a program like [PuTTY](https://www.putty.org/) to SSH.
   1. Host: `raspberrypi.local`
   2. Username: `pi`
