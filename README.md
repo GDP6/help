@@ -38,6 +38,8 @@ What you'll need:
 * A PC to load the OS onto the Micro-SD. We used a Windows PC.
   
 Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
-* Download a lite version of [Rasbian](https://www.raspberrypi.org/downloads/raspbian/). The lite version does not have a GUI, which is not needed in this project. 
+* Download a lite version of [Rasbian](https://www.raspberrypi.org/downloads/raspbian/). The lite version does not have a GUI, which is ideal for this project. 
 * Format the Micro-SD card after plugging it into the PC.
-* 
+* Use [Etcher](https://etcher.io/) to write the Raspbian Image to the Micro-SD card.
+* Open the Micro-SD card folder after writing the Raspbian Image and do the following:  
+  1. Open `config.txt` and enter the following at the bottom of the file: `dtoverlay=dwc2`.  
