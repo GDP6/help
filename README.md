@@ -29,7 +29,15 @@ network={
 * `ifconfig wlan0` to ensure wlan0 has an IP address.
 * `curl http://www.google.com` again, to ensure there is internet access.
 
-## Setting Up The Device  
+## Setting Up The Device
+What you'll need:  
+* Raspberry Pi Zero W.
+* Micro-SD card (4GB or greater. 8GB recommended). 
+* USB to micro-USB cable. 
+* Micro-SD to SD card/USB adapter (or any method of reading and writing to a Micro-SD using a PC).
+* A PC to load the OS onto the Micro-SD. We used a Windows PC.
+  
 Instructions on how to install an OS and SSH into the Raspberry Pi Zero W.
 * Download a lite version of [Rasbian](https://www.raspberrypi.org/downloads/raspbian/). The lite version does not have a GUI, which is not needed in this project. 
+* Format the Micro-SD card after plugging it into the PC.
 * 
