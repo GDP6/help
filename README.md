@@ -11,6 +11,8 @@ Help page for the project
 
 ### Device 
 The device is a Raspberry Pi Zero W.  
+
+#### WiFi
   
 * `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` opens file where WiFi can be configured. 
 
@@ -28,6 +30,10 @@ network={
 * `sudo wpa_cli -i wlan0 reconfigure` restarts wlan0.
 * `ifconfig wlan0` to ensure wlan0 has an IP address.
 * `curl http://www.google.com` again, to ensure there is internet access.
+
+#### GPIO
+
+<img src="RaspberryPiZero.png" width="500" align="middle">   
 
 ## Setting Up The Device
 What you'll need:  
