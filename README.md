@@ -15,7 +15,7 @@ The device is a Raspberry Pi Zero W.
 
 #### WiFi
   
-* `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` opens file where WiFi can be configured. 
+* `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` opens the file where WiFi can be configured. 
 
 ```
 #Example of wpa_supplicant.conf file
@@ -34,7 +34,15 @@ network={
 
 #### GPIO
 
-<img src="RaspberryPiZero.png" width="500" align="middle">   
+<img src="RaspberryPiZero.png" width="500" align="middle">    
+  
+* `sudo crontab -e` allows you to run code on start-up.  
+```
+#This will run script.sh on boot in the background
+@reboot sudo ./script.sh & 
+```
+* `lsmod` shows mods that are running. 
+* `sudo modprobe w1-therm/w1-gpio` activates the mod you want. 
 
 ## Setting Up The Device
 What you'll need:  
