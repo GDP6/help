@@ -13,7 +13,8 @@ Help page for the project
 ### Device 
 The device is a Raspberry Pi Zero W.  
 
-#### WiFi
+#### WiFi  
+The best way to connect a Raspberry Pi Zero W to WiFi is to use our [WiPi script](https://github.com/GDP6/WiPi).
   
 * `sudo nano /etc/wpa_supplicant/wpa_supplicant.conf` opens the file where WiFi can be configured. 
 
